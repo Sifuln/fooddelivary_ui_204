@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:food_delivary_ui_204/data/data.dart';
 import 'package:food_delivary_ui_204/models/order.dart';
 
-void main() => runApp(CartScreen());
+
 
 class CartScreen extends StatefulWidget {
   @override
