@@ -12,6 +12,7 @@ class AmarApp extends StatelessWidget{
       debugShowCheckedModeBanner: false,
       title: 'Food Delivery UI',
       theme: ThemeData(
+        primarySwatch: Colors.deepOrange,
         scaffoldBackgroundColor: Colors.grey[50],
         primaryColor: Colors.deepOrangeAccent
       ),

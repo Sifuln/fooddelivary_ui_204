@@ -18,7 +18,7 @@ final _restaurant0 = Restaurant(
   imageUrl: 'images/restaurant0.jpg',
   name: 'Restaurant 0',
   address: '200 Main St, New York , NY',
-  rating: 5,
+  rating: 4,
   menu:[_burrito,_steak,_pasta,_ramen,_pancakes,_burger,_pizza,_salmon],
 );
 
