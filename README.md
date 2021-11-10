@@ -8,9 +8,9 @@ Container,GestureDetector,Row,Column,RatingStars,SizedBox,Text,Padding etc.
 
 
 ## Design Overview
-<img src="https://raw.githubusercontent.com/Sifuln/fooddelivary_ui_204/main/home.jpeg" alt="Design 1" style="max-width: 100%;" width="300px" height="500px">
-<img src="https://raw.githubusercontent.com/Sifuln/fooddelivary_ui_204/main/food_item.jpeg" alt="Design 1" style="max-width: 100%;" width="300px" height="500px">
-<img src="https://raw.githubusercontent.com/Sifuln/fooddelivary_ui_204/main/cart.jpeg" alt="Design 1" style="max-width: 100%;" width="300px" height="500px">
+<img src="https://raw.githubusercontent.com/ZaidKhan15/fooddelivary_ui_204/foodui/home.jpeg" alt="Design 1" style="max-width: 100%;" width="300px" height="500px">
+<img src="https://raw.githubusercontent.com/ZaidKhan15/fooddelivary_ui_204/foodui/food_item.jpeg" alt="Design 1" style="max-width: 100%;" width="300px" height="500px">
+<img src="https://raw.githubusercontent.com/ZaidKhan15/fooddelivary_ui_204/foodui/cart.jpeg" alt="Design 1" style="max-width: 100%;" width="300px" height="500px">
 
 
 ## Getting Started
