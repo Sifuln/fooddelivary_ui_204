@@ -116,8 +116,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     builder: (_) => CartScreen())
               ),
               child: Badge(
+                badgeColor: Colors.black,
       badgeContent: Text('6',style: TextStyle(
-        fontSize: 12
+        fontSize: 12,color: Colors.white
       ),),
       child: Icon(Icons.shopping_cart,size: 30,color: Colors.white,),
           ))

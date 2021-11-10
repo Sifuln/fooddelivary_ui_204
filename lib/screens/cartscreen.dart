@@ -134,6 +134,7 @@ class _HomeState extends State<Home> {
     });
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color(0xFFFF5722),
         leading: IconButton(icon:Icon(Icons.arrow_back_ios_new,),onPressed: (){},),
         title: Text('Cart (${currentUser.cart.length})'),
       ),
@@ -203,7 +204,7 @@ class _HomeState extends State<Home> {
         height: 100.0,
         width: MediaQuery.of(context).size.width,
         decoration: BoxDecoration(
-            color: Theme.of(context).primaryColor,
+            color: Colors.deepOrange,
             boxShadow: [
               BoxShadow(
                   color: Colors.black26,
@@ -214,6 +215,7 @@ class _HomeState extends State<Home> {
         ),
         child: Center(
           child: TextButton(
+             style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.deepOrange)),
             child: Text(
               'CHECKOUT',
               style: TextStyle(
