@@ -18,15 +18,18 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
         child: Stack(
           alignment: Alignment.center,
           children: [
-            Container(
-              height: 175.0,
-              width: 175.0,
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                    image:  AssetImage(menuItem.imageUrl),
-                    fit: BoxFit.cover
+            Padding(
+              padding: const EdgeInsets.all(3.0),
+              child: Container(
+                height: 175.0,
+                width: 175.0,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                      image:  AssetImage(menuItem.imageUrl),
+                      fit: BoxFit.cover
+                  ),
+                  borderRadius: BorderRadius.circular(15.0)
                 ),
-                borderRadius: BorderRadius.circular(15.0)
               ),
             ),
             Container(
@@ -51,7 +54,7 @@ class _RestaurantScreenState extends State<RestaurantScreen> {
               bottom: 60.0,
               child: Column(
                 children: [
-                  Text(menuItem.name,style: TextStyle(color: Colors.white,fontSize: 24.0,fontWeight: FontWeight.bold,letterSpacing: 1.2)),
+                  Text(menuItem.name,style: TextStyle(color: Colors.white,fontSize: 22.0,fontWeight: FontWeight.bold,letterSpacing: 1.2)),
                   Text('\$${menuItem.price}',style: TextStyle(color: Colors.white,fontSize: 18.0,letterSpacing: 1.2),)
                 ],
               ),

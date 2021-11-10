@@ -134,6 +134,7 @@ class _HomeState extends State<Home> {
     });
     return Scaffold(
       appBar: AppBar(
+        leading: IconButton(icon:Icon(Icons.arrow_back_ios_new,),onPressed: (){},),
         title: Text('Cart (${currentUser.cart.length})'),
       ),
       body: ListView.separated(
